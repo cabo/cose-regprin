@@ -14,7 +14,7 @@ workgroup: "CBOR Object Signing and Encryption"
 keyword:
 
 venue:
-  group: "CBOR Object Signing and Encryption"
+  group: "CBOR Object Signing and Encryption (COSE)"
   mail: "cose@ietf.org"
   github: "cabo/cose-regprin"
 
@@ -142,7 +142,7 @@ continue to do so over a number of decades) is always an objective.
 
 ...
 
-## COSE Algorithms
+## COSE Algorithms {#alg}
 
 Algorithm identifiers in these registrations have a *Recommended* Tag,
 which indicates ({{Section 16.4 of RFC8152}}):
@@ -196,7 +196,9 @@ different representation sizes of the algorithm identifier.
 
 ## COSE Elliptic Curves
 
-...
+This registry is governed by similar principles as the COSE Algorithms
+registry ({{alg}}).  Curve types identify all parameters of a curve and
+are registered all at once where natural groups of such types exist.
 
 # Security Considerations
 
