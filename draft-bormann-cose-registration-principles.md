@@ -9,13 +9,13 @@ category: info
 submissiontype: IETF  # also: "independent", "IAB", or "IRTF"
 date:
 consensus: true
-area: "Applications and Real-Time"
-workgroup: CBOR
+area: "Security"
+workgroup: "CBOR Object Signing and Encryption"
 keyword:
 
 venue:
-  group: "COSECBOR)"
-  mail: "COSE@ietf.org"
+  group: "CBOR Object Signing and Encryption"
+  mail: "cose@ietf.org"
   github: "cabo/cose-regprin"
 
 author:
